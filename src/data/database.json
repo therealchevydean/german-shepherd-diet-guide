@@ -1,0 +1,165 @@
+{
+  "breed": {
+    "name": "German Shepherd",
+    "aliases": ["GSD", "Alsatian"],
+    "average_weight_kg": {
+      "male": { "min": 30, "max": 40 },
+      "female": { "min": 22, "max": 32 }
+    },
+    "average_height_cm": {
+      "male": { "min": 60, "max": 65 },
+      "female": { "min": 55, "max": 60 }
+    },
+    "life_expectancy_years": { "min": 10, "max": 13 },
+    "metabolic_type": "Large breed, high energy, predisposed to sensitive digestion, exocrine pancreatic insufficiency (EPI), gastric dilatation-volvulus (GDV / bloat), and hip/joint dysplasia."
+  },
+  "nutritional_needs": {
+    "macronutrients": {
+      "protein": {
+        "puppy_min_percentage": 25.0,
+        "adult_min_percentage": 22.0,
+        "senior_min_percentage": 24.0,
+        "description": "High-quality, highly digestible animal proteins (chicken, lamb, turkey, beef, fish) are essential for maintaining lean muscle mass and supporting high activity levels."
+      },
+      "fat": {
+        "puppy_min_percentage": 8.0,
+        "adult_min_percentage": 10.0,
+        "senior_min_percentage": 8.0,
+        "description": "Essential fatty acids (Omega-3 and Omega-6, EPA, DHA) for cognitive development, skin health, double coat maintenance, and joint inflammation reduction."
+      },
+      "carbohydrates": {
+        "recommended_source": "Easily digestible complex carbs such as sweet potato, brown rice, oats, and quinoa.",
+        "avoid": "Excessive corn, wheat, or soy fillers which can trigger sensitivities or gas."
+      },
+      "fiber": {
+        "target_percentage": { "min": 3.0, "max": 5.0 },
+        "description": "Moderate fiber promotes optimal stool consistency, vital for GSDs prone to sensitive digestion."
+      }
+    },
+    "micronutrients_and_supplements": [
+      {
+        "name": "Glucosamine & Chondroitin",
+        "purpose": "Joint support for large breeds prone to hip and elbow dysplasia."
+      },
+      {
+        "name": "Omega-3 Fatty Acids (EPA/DHA)",
+        "purpose": "Anti-inflammatory support for joints, skin barrier function, and coat gloss."
+      },
+      {
+        "name": "Probiotics & Prebiotics",
+        "purpose": "Gut health support, crucial for managing sensitive GSD stomachs and preventing dysbiosis."
+      },
+      {
+        "name": "L-Carnitine & Taurine",
+        "purpose": "Cardiovascular health support."
+      }
+    ],
+    "life_stages": {
+      "puppy": {
+        "age_range_months": { "min": 2, "max": 15 },
+        "feeding_frequency": "3 to 4 meals per day until 6 months, then 2 meals.",
+        "focus": "Controlled growth rate to prevent developmental orthopedic diseases (DOD)."
+      },
+      "adult": {
+        "age_range_years": { "min": 1.5, "max": 7 },
+        "feeding_frequency": "2 meals per day.",
+        "focus": "Maintenance of lean muscle, weight management to protect joints."
+      },
+      "senior": {
+        "age_range_years": { "min": 7, "max": 15 },
+        "feeding_frequency": "2 smaller meals per day.",
+        "focus": "Easily digestible proteins, joint support, lower calorie density if less active, kidney support."
+      }
+    }
+  },
+  "health_considerations": [
+    {
+      "condition": "Gastric Dilatation-Volvulus (GDV / Bloat)",
+      "dietary_recommendations": [
+        "Feed 2-3 smaller meals daily instead of one large meal.",
+        "Avoid vigorous exercise 1 hour before and after meals.",
+        "Use slow-feeder bowls to prevent gulping air."
+      ]
+    },
+    {
+      "condition": "Exocrine Pancreatic Insufficiency (EPI)",
+      "dietary_recommendations": [
+        "Highly digestible, low-to-moderate fat diet.",
+        "Supplement with powdered pancreatic enzymes prior to every meal."
+      ]
+    },
+    {
+      "condition": "Food Sensitivities & Allergies",
+      "dietary_recommendations": [
+        "Limited ingredient diets (LID).",
+        "Novel protein sources (venison, duck, salmon) if chicken/beef intolerance is suspected."
+      ]
+    }
+  ],
+  "safe_foods": [
+    {
+      "category": "Meats & Proteins",
+      "items": [
+        { "name": "Chicken", "prep": "Plain, boneless, fully cooked (no skin/bones)" },
+        { "name": "Turkey", "prep": "Plain, boneless, fully cooked" },
+        { "name": "Lean Beef", "prep": "Cooked, unseasoned, fat trimmed" },
+        { "name": "Lamb", "prep": "Cooked, unseasoned" },
+        { "name": "Salmon", "prep": "Cooked thoroughly, boneless, skinless" },
+        { "name": "Eggs", "prep": "Fully cooked (scrambled or boiled)" }
+      ]
+    },
+    {
+      "category": "Vegetables",
+      "items": [
+        { "name": "Carrots", "prep": "Raw or steamed, cut into bite-sized pieces" },
+        { "name": "Green Beans", "prep": "Plain, fresh or frozen (steamed or raw)" },
+        { "name": "Sweet Potatoes", "prep": "Cooked, peeled, plain" },
+        { "name": "Pumpkin", "prep": "Plain canned pumpkin (pure, no spices/sugar)" },
+        { "name": "Zucchini", "prep": "Cooked or raw, chopped" },
+        { "name": "Cucumber", "prep": "Sliced, seeds removed" }
+      ]
+    },
+    {
+      "category": "Fruits",
+      "items": [
+        { "name": "Blueberries", "prep": "Fresh or frozen, washed" },
+        { "name": "Apple Slices", "prep": "Core and seeds removed" },
+        { "name": "Bananas", "prep": "Peel removed, in moderation" },
+        { "name": "Watermelon", "prep": "Seedless, rindless" },
+        { "name": "Strawberries", "prep": "Hulled, washed" }
+      ]
+    },
+    {
+      "category": "Grains & Dairy",
+      "items": [
+        { "name": "Plain White or Brown Rice", "prep": "Fully cooked, unseasoned (great for upset stomachs)" },
+        { "name": "Oatmeal", "prep": "Cooked with water, plain" },
+        { "name": "Plain Greek Yogurt", "prep": "Unsweetened, low fat, in moderation (check for lactose tolerance)" },
+        { "name": "Cottage Cheese", "prep": "Low sodium, plain, in moderation" }
+      ]
+    }
+  ],
+  "toxic_foods": [
+    {
+      "category": "High Toxicity / Emergency",
+      "items": [
+        { "name": "Chocolate", "reason": "Contains theobromine and caffeine, highly toxic to dogs." },
+        { "name": "Grapes and Raisins", "reason": "Can cause sudden acute kidney failure." },
+        { "name": "Xylitol (Artificial Sweetener)", "reason": "Causes rapid insulin release, leading to severe hypoglycemia and liver failure." },
+        { "name": "Onions, Garlic, Chives", "reason": "Contains thiosulfate which damages red blood cells and causes Heinz body anemia." },
+        { "name": "Macadamia Nuts", "reason": "Causes weakness, tremors, hyperthermia, and vomiting." },
+        { "name": "Alcohol & Yeast Dough", "reason": "Causes ethanol poisoning and severe gas accumulation / bloating." }
+      ]
+    },
+    {
+      "category": "Foods to Avoid / Harmful",
+      "items": [
+        { "name": "Cooked Bones", "reason": "Splinter easily, causing internal punctures or gastrointestinal blockages." },
+        { "name": "Avocado", "reason": "Contains persin (especially in pit, skin, and leaves), causing vomiting and diarrhea." },
+        { "name": "Coffee, Tea, Caffeine", "reason": "Stimulants that can cause heart palpitations, tremors, and seizures." },
+        { "name": "Citrus Fruits (Lemon, Lime, Grapefruit)", "reason": "High levels of citric acid and essential oils cause digestive upset." },
+        { "name": "High-Sodium and Fatty Foods", "reason": "Can trigger acute pancreatitis, especially dangerous for GSDs." }
+      ]
+    }
+  ]
+}
